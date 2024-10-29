@@ -8,4 +8,11 @@ print(student["name"]) # key
 student["weight"] = 61
 print(student)
 
-# set
+# set -- only one existence per item, unordered--order keeps changing
+people = {"Jane", "Bill", "Kevo", "Said", "Jane"}
+print(people)
+people.add("Willy")
+print(people)
+print(len(people))
+people.discard("Kevo")
+print(people)
