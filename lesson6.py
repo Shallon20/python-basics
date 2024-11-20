@@ -19,3 +19,8 @@ print(scores)
 scores.sort(reverse=True)
 print(scores)
 print(len(scores))
+
+print(scores[0:3])
+scores.insert(0,10)
+scores.remove(2)
+print(10 in scores)
